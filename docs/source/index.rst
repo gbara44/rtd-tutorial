@@ -1,22 +1,65 @@
-Welcome to Lumache's documentation!
-===================================
+.. Gestion des Adresses documentation master file, created by
+   sphinx-quickstart on Mon Feb 27 12:45:38 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+.. title:: Documentation de l'application de gestion des adresses 
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Documentation de l'application de gestion des adresses
+======================================================
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+.. container:: image-container
+
+  .. figure:: _static/logo.png
+
+
+Connexion Ã  l'outil et interface gÃ©nÃ©rale
+-----------------------------------------
+
+Informations sur la connexion et l'interface.
+
+.. toctree::
+   :caption: Connexion
+   :hidden:
+
+   connexion.rst
+
+.. toctree::
+   :caption: Interface
+   :hidden:
+
+   interface.rst
+
+.. toctree::
+   :caption: Gestion des objets
+   :hidden:
+
+   gestion.rst
+
+.. toctree::
+   :caption: Recherches possibles
+   :hidden:
+
+   recherches.rst
+
+.. toctree::
+   :caption: Statistiques et analyses
+   :hidden:
+
+   stats_analyses.rst
+
+.. toctree::
+   :caption: Liens externes
+   :hidden:
+
+   liens_externes.rst
+
+- :doc:`Connexion Ã  l'application <connexion>`
+- :doc:`interface`
+- :doc:`Gestion des voies et adresses <gestion>`
+- :doc:`Recherches possibles <recherches>`
+- :doc:`Statistiques et analyses <stats_analyses>`
+
 
 .. note::
 
-   This project is under active development.
-
-Contents
---------
-
-.. toctree::
-
-   usage
-   api
+   Ce projet est en cours de dÃ©veloppement...
